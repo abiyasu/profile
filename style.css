@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400');
 body {
-  background: EFF0D1;
+  background: #FDFFFC;
   font-family: 'Arimo', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color: 482728;
+   color: #FDFFFC;
   text-align: center;
 }
 
@@ -16,10 +16,13 @@ body {
 .list-inline{
   list-style: none;
   padding-left: 0px;
+  display:flex;
+  justify-content: center;
 }
+
 a{
-  color:EFF0D1;
-  background-color:556F44;
+  color:#FDFFFC;
+  background-color:#879a9e;
   padding: 15px 40px;
   border-radius: 15px;
   text-decoration: none;
@@ -27,15 +30,15 @@ a{
   font-size: 16px;
 }
 a:hover{
-  color: C97D60;
+  color: #DE8F6E;
   text-decoration: none;
 }
 
 div{
-  background:556F44;
-  padding: 30px;
+  background:#FDFFFC;
+  padding: 80px;
   border-radius:  4px;
-  box-shadow: 0 10px 30px rgb(95, 91, 91);
+  box-shadow: 0 10px 30px rgb(178, 169, 169);
 }
 
 .img_circle {
@@ -43,36 +46,34 @@ div{
 }
 
 .card-white{
-  background-color: 556F44;
+  background-color: #62929E;
   box-shadow: 0px 0px 30px rgba(0,0,0,0,2);
   text-align: center;
   padding: 20px;
   margin: 20px 0px;
   border-radius: 5px;
-  border:1px solid C97D60;
+  border:1px none #393A10;
   ;
 }
 
-.img_circle{
+.img-circle{
   width: 100px;
   border-radius: 50%;
 }
 
+i {
+  font-size: 25px;
+  letter-spacing: 10px;
+}
 .btn-blue {
-  background-color:#265cb8 ;
-  color: white;
+  background-color:#FDFFFC ;
+  color: #393A10;
   padding: 15px 20px;
   border-radius: 4px;
 }
 
-.list-inline{
-  padding: 0;
-  padding-left: 0px;
-}
-.list-inline li{
-  list-style: none;
-  padding-left: 0px;
-}
+
+
 
 html {font-size: 100%;} /*16px*/
 
