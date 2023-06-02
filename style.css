@@ -62,6 +62,9 @@ div{
   border-radius: 50%;
 }
 
+.fa-comment-smile:before {
+  content: "\f1ab";
+  }
 
 i {
   font-size: 25px;
